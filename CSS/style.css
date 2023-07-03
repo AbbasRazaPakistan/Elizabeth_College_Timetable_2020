@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  /* border-right: 1px solid black; */
+  border-collapse: collapse;
+}
+td,
+th {
+  border-left: none;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: normal;
+}
+tr {
+  height: 21px;
+}
+td {
+  width: 120px;
+}
+.line1 {
+  background-color: #cce1ff;
+}
+.line2 {
+  background-color: #fec39b;
+}
+.line3 {
+  background-color: #c9e7ab;
+}
+.line4 {
+  background-color: #febbde;
+}
+.line5 {
+  background-color: #e1d6f4;
+}
+.yellowbox {
+  background-color: #ffff93;
+}
+.dayname {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.timestamps {
+  border: none;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 9.5px;
+  width: 50px;
+}
